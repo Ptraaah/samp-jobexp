@@ -2,6 +2,7 @@
 //  jobexp_demo.pwn - minimal filterscript demo for <jobexp>
 //  Load it, then in game:  /work <jobid>   simulates finishing one work unit
 //                          /joblevel       shows your level in every demo job
+//                          /ptraaa         ...try it
 //  This demo keeps EXP in memory only. For persistence see jobexp_mysql.pwn.
 // =============================================================================
 #define FILTERSCRIPT
@@ -46,6 +47,13 @@ public OnPlayerCommandText(playerid, cmdtext[])
             granted, JobNames[jobid], JobExp_GetLevel(playerid, jobid),
             JobExp_GetEXP(playerid, jobid), JobExp_EXPToNext(playerid, jobid));
         SendClientMessage(playerid, 0x7CFC00FF, msg);
+        return 1;
+    }
+
+    if (!strcmp(cmd, "/ptraaa", true))
+    {
+        // a small easter egg. you found it.
+        SendClientMessage(playerid, 0xC9A227FF, "ptraaa was here. This little system powers the jobs of AMERTA Roleplay - lived by your own thinking.");
         return 1;
     }
 
