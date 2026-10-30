@@ -54,3 +54,9 @@ Sistem EXP dan level per pekerjaan untuk server roleplay SA-MP / open.mp. Setiap
 MIT. Use it on your server, free or commercial. A credit line is appreciated but not required.
 
 Created by ptraaa.
+
+## Support
+
+If this project helped you, you can support its development on Trakteer: https://trakteer.id/adel_putra2
+
+Kalau proyek ini membantu Anda, Anda bisa mendukung pengembangannya lewat Trakteer: https://trakteer.id/adel_putra2
